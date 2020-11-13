@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 """Trainer for Tensor2Tensor.
 
 This script is used to train your models in Tensor2Tensor.
@@ -29,5 +29,6 @@ def main(argv):
 
 
 if __name__ == "__main__":
+  tf.disable_v2_behavior()
   tf.logging.set_verbosity(tf.logging.INFO)
   tf.app.run(main)
