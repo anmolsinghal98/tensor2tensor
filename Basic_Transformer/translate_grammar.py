@@ -27,14 +27,14 @@ from tensor2tensor.utils import registry
 
 _ENDE_GRAMMAR_CORRECTION_DATASETS=[
   [  
-     "content/drive/Shared\ drives/NLP project/data/Basic_Transformer/tmp_dir/train_src_trg.zip",
+     "content/drive/My Drive/BTP/Baselines/Data.zip",
     ("train.src","train.trg")
   ]
 ]
 _ENDE_EVAL_GRAMMAR_CORRECTION_DATASETS=[
   [
-    "content/drive/Shared\ drives/NLP project/data/Basic_Transformer/tmp_dir/valid_src_trg.zip",
-    ("dev.src","dev.trg")
+    "content/drive/My Drive/BTP/Baselines/Data.zip",
+    ("valid.src","valid.trg")
   ]
 ]
 
