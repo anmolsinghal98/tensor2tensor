@@ -64,7 +64,7 @@ setup(
         'scipy',
         'six>=1.12.0',
         'sympy',
-        'tensorflow-addons',
+        'tensorflow-addons==0.9.1',
         'tensorflow==2.1.0',
         'tensorflow-datasets',
         'tensorflow-gan',
